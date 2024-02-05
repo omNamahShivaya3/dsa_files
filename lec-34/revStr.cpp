@@ -5,6 +5,8 @@ void rev (string& s, int i, int j) {
     // base case
     if (i>j) return;
 
+    // ek case solve kar lo baaki recursion sambhaal lega
+
     swap (s[i], s[j]);
     i++;
     j--;
